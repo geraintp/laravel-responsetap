@@ -1,0 +1,38 @@
+{
+    "name": "Geraintp/laravel-responsetap",
+    "description": "A Laravel A library for interacting with ResponseTap API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geraint Palmer",
+            "email": "geraintp@gmail.com"
+        }
+    ],
+    "require": {        
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Geraintp\\ResponseTap\\" : "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "providers": [
+            "Geraintp\\LaravelResponseTap\\ServiceProvider"
+        ],
+        "aliases": {
+            "ResponseTap": "Geraintp\\LaravelResponseTap\\Facade"
+        }
+    },
+    "keywords": [
+        "laravel",
+        "responsetap",
+        "api",
+        "service"
+    ]
+}
