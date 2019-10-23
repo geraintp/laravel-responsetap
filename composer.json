@@ -1,5 +1,5 @@
 {
-    "name": "Geraintp/laravel-responsetap",
+    "name": "geraintp/laravel-responsetap",
     "description": "A Laravel A library for interacting with ResponseTap API",
     "type": "library",
     "license": "MIT",
@@ -34,5 +34,9 @@
         "responsetap",
         "api",
         "service"
-    ]
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15",
+        "orchestra/testbench": "^4.2"
+    }
 }

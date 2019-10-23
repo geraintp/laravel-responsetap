@@ -10,11 +10,11 @@ namespace Geraintp\LaravelResponseTap\Facades;
  */
 class ResponseTap extends \Illuminate\Support\Facades\Facade
 {
-	/**
-	 * {@inheritdoc}
-	 */
-	protected static function getFacadeAccessor()
-	{
-		return \Geraintp\LaravelResponseTap\ResponseTap::class;
-	}
+    /**
+     * {@inheritdoc}
+     */
+    protected static function getFacadeAccessor()
+    {
+        return \Geraintp\LaravelResponseTap\ResponseTap::class;
+    }
 }

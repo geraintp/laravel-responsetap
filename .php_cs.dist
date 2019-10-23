@@ -10,6 +10,5 @@ return PhpCsFixer\Config::create()
         '@PSR2' => true,
         'array_syntax' => ['syntax' => 'short'],
     ])
-	->setIndent("\t")
     ->setLineEnding("\r\n")
     ->setFinder($finder);
